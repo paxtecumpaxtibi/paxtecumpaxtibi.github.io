@@ -88,3 +88,5 @@ A skill instalada está em `C:/Users/sidne/.codex/skills/continuar-site-esperanc
 - 14/11/2026: mensagem 0068, de 07/11/2025, retirada a pedido do autor. Removida da raiz, do catálogo e de messageFiles em acervo.js. Cópia atual e original guardados fora do site em C:/Users/sidne/Documents/paxtecumpaxtibi-revisao/mensagem-2025-11-07/. Não restaurar automaticamente de backups; aguardar revisão e pedido de retorno do autor. Alteração local, sem publicação externa.
 
 - Repositório confirmado em 14/11/2026: https://github.com/paxtecumpaxtibi/paxtecumpaxtibi.git, branch main. O usuário autorizou enviar as alterações da pasta atual para esse repositório. Backups .revisao/ e a cópia interna paxtecumpaxtibi/ ficam ignorados pelo Git. Esse registro substitui a informação histórica de que não havia repositório GitHub identificado.
+
+- 14/11/2026: leitura ampliada a pedido do usuário. Corpo das mensagens, artigos, introdução, passagem bíblica e notas com fonte fluida de 19 a 22px; navegação, datas e rodapé com 16px. Títulos preservados. Parágrafos p.Deus em peso 700 (negrito), incluindo ênfases internas. CSS versionado como v=20 em todas as páginas para atualizar o cache.

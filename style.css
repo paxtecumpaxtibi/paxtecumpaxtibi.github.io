@@ -189,3 +189,35 @@ footer .footer-devotion p { display:block;font-size:13px; }
   .reading-page .message-pager { flex-wrap:wrap; }
   .footnote-overlay { padding:12px; }
 }
+
+/* Leitura ampliada: textos de apoio e corpo, sem alterar os títulos. */
+body { font-size:1.125rem; }
+.intro,
+.essence-copy,
+.imported-article p,
+.reading-page p,
+.reading-page li,
+.hero-bottom.scripture,
+.footnote-overlay__content {
+  font-size:clamp(1.1875rem, 1.1rem + .35vw, 1.375rem);
+  line-height:1.85;
+}
+.intro { max-width:46ch; }
+.eyebrow { font-size:1rem;line-height:1.8;letter-spacing:.1em; }
+header > nav { font-size:1rem; }
+.reading-page .message-pager a { font-size:1rem; }
+.legacy-date, .pill-label { font-size:1rem!important;letter-spacing:.06em; }
+.hero-art figcaption { font-size:.875rem;line-height:1.6;letter-spacing:.06em; }
+.art-label small { font-size:.875rem; }
+.scripture > figcaption,
+footer p,
+footer > a:last-of-type,
+footer small,
+footer .footer-devotion p { font-size:1rem;line-height:1.8; }
+.reading-page p.Deus,
+.reading-page p.Deus em { font-weight:700; }
+@media(max-width:480px) {
+  .reading-page .message-pager { gap:12px; }
+  .message-pager__spacer { display:none; }
+  .reading-page .message-pager a { flex:1;min-width:0;overflow-wrap:anywhere; }
+}
