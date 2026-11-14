@@ -1,0 +1,4 @@
+# Backups e ferramentas locais da revisão editorial
+/.revisao/
+# Cópia local independente; não adicionar como submódulo
+/paxtecumpaxtibi/
