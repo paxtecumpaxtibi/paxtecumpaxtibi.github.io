@@ -221,3 +221,6 @@ footer .footer-devotion p { font-size:1rem;line-height:1.8; }
   .message-pager__spacer { display:none; }
   .reading-page .message-pager a { flex:1;min-width:0;overflow-wrap:anywhere; }
 }
+
+/* Salmo após os rogos da página inicial. */
+.imported-article + .opening-psalm { margin-top:48px;margin-bottom:0; }
