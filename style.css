@@ -119,16 +119,19 @@ body:has(dialog[open]) { overflow:hidden; }
 /* Emblema central independente da largura da marca e da navegação. */
 header { position:relative;min-height:150px;gap:24px; }
 .header-heart { position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:88px;height:88px;object-fit:contain; }
+.header-heart-caption { position:absolute;z-index:1;top:calc(50% + 47px);left:50%;transform:translateX(-50%);margin:0;color:var(--muted);font:italic 11px/1.2 var(--serif);letter-spacing:0;white-space:nowrap; }
 header > .brand { max-width:calc(50% - 68px); }
 header > nav { margin-left:auto; }
 @media(max-width:1000px) {
   header { min-height:128px; }
   .header-heart { width:76px;height:76px; }
+  .header-heart-caption { top:calc(50% + 40px); }
   header > .menu { margin-left:auto; }
 }
 @media(max-width:480px) {
   header { padding:20px 5%;min-height:112px;gap:12px; }
   .header-heart { width:62px;height:62px; }
+  .header-heart-caption { top:calc(50% + 33px);font-size:10px; }
   header > .brand { max-width:calc(50% - 42px);gap:7px;font-size:8px;letter-spacing:1px; }
   header > .brand b { font-size:10px;letter-spacing:1px; }
   header > .brand .cross { font-size:29px; }
