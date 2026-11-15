@@ -227,3 +227,20 @@ footer .footer-devotion p { font-size:1rem;line-height:1.8; }
 
 /* Salmo após os rogos da página inicial. */
 .imported-article + .opening-psalm { margin-top:48px;margin-bottom:0; }
+
+:root {
+  --bg:#E9D9C8;
+  --deep:#DCC7B5;
+  --text:#49372C;
+  --muted:#60493A;
+  --gold:#68492E;
+  --line:#49372C24;
+  color-scheme:light;
+}
+.nav-cta { border-color:var(--gold); }
+.button { color:var(--bg); }
+.button:hover { background:#54391F; }
+.text-link { border-bottom-color:var(--gold); }
+.hero-art { border-color:#B99C7C;background:#C7A98C; }
+.art-label, .hero-art figcaption { color:var(--bg); }
+.reading-page select { color-scheme:light; }
