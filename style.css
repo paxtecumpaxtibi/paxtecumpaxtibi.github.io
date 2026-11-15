@@ -243,4 +243,5 @@ footer .footer-devotion p { font-size:1rem;line-height:1.8; }
 .text-link { border-bottom-color:var(--gold); }
 .hero-art { border-color:#B99C7C;background:#C7A98C; }
 .art-label, .hero-art figcaption { color:var(--bg); }
+.art-label em { color:var(--bg); }
 .reading-page select { color-scheme:light; }
