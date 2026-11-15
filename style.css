@@ -184,7 +184,7 @@ footer .footer-devotion p { display:block;font-size:13px; }
 .opening-psalm { max-width:76ch;margin:0 auto 45px;padding-bottom:30px;border-bottom:1px solid var(--line);color:var(--gold); }
 .opening-psalm blockquote { margin:0;font:italic clamp(20px,2.5vw,26px)/1.7 var(--serif); }
 .psalm-devotion { margin:36px auto 0;text-align:center; }
-.psalm-devotion img { display:block;width:min(67%,281px);height:auto;margin:0 auto; }
+.psalm-devotion img { display:block;width:min(56.28%,236px);height:auto;margin:0 auto; }
 .psalm-devotion figcaption { position:static;display:block;max-width:60ch;margin:22px auto 0;color:var(--gold);font-size:clamp(18px,2vw,22px);line-height:1.8;letter-spacing:normal; }
 @media(max-width:700px) {
   .reading-page { padding:30px 6% 48px; }
