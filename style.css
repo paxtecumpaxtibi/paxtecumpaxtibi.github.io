@@ -252,9 +252,9 @@ footer .footer-devotion p { font-size:1rem;line-height:1.8; }
 
 footer > p {
   display:block;
-  color:var(--gold);
+  color:var(--text);
   font-family:var(--serif);
-  font-size:.9rem;
+  font-size:1rem;
   font-style:italic;
   letter-spacing:.03em;
   line-height:1.55;
