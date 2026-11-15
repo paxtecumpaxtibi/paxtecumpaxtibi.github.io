@@ -249,3 +249,13 @@ footer .footer-devotion p { font-size:1rem;line-height:1.8; }
 .art-label, .hero-art figcaption { color:var(--bg); }
 .art-label em { color:var(--bg); }
 .reading-page select { color-scheme:light; }
+
+footer > p {
+  display:block;
+  color:var(--gold);
+  font-family:var(--serif);
+  font-size:.9rem;
+  font-style:italic;
+  letter-spacing:.03em;
+  line-height:1.55;
+}
