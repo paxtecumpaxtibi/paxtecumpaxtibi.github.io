@@ -92,3 +92,7 @@ A skill instalada está em `C:/Users/sidne/.codex/skills/continuar-site-esperanc
 - 14/11/2026: leitura ampliada a pedido do usuário. Corpo das mensagens, artigos, introdução, passagem bíblica e notas com fonte fluida de 19 a 22px; navegação, datas e rodapé com 16px. Títulos preservados. Parágrafos p.Deus em peso 700 (negrito), incluindo ênfases internas. CSS versionado como v=20 em todas as páginas para atualizar o cache.
 
 - 14/11/2026: Salmo 131 movido para depois do artigo Rogai por nós, na página inicial, com espaçamento superior. Texto integral preservado.
+
+- 15/11/2026: publicada a revisão da mensagem 0099_14112026.html no GitHub Pages, via commit 3e4d5f1 na branch main. Inclui correções linguísticas, a expressão aprovada "poderes malignos" e a referência (Ef 6,12). Conteúdo confirmado na página pública https://paxtecumpaxtibi.github.io/paxtecumpaxtibi/0099_14112026.html.
+
+- 15/11/2026: por solicitação do usuário, destino de publicação alterado para https://github.com/paxtecumpaxtibi/paxtecumpaxtibi.github.io.git, branch main. Remoto origin atualizado; histórico inicial do novo repositório integrado ao histórico local. Endereço pretendido: https://paxtecumpaxtibi.github.io/. A pasta local permanece a mesma.
