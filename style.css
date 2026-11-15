@@ -119,7 +119,7 @@ body:has(dialog[open]) { overflow:hidden; }
 /* Emblema central independente da largura da marca e da navegação. */
 header { position:relative;min-height:150px;gap:24px; }
 .header-heart { position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:88px;height:88px;object-fit:contain; }
-.header-heart-caption { position:absolute;z-index:1;top:calc(50% + 47px);left:50%;transform:translateX(-50%);margin:0;color:var(--muted);font:italic 11px/1.2 var(--serif);letter-spacing:0;white-space:nowrap; }
+.header-heart-caption { position:absolute;z-index:1;top:calc(50% + 47px);left:50%;transform:translateX(-50%);margin:0;color:var(--text);font:600 italic 11px/1.2 var(--serif);letter-spacing:0;white-space:nowrap; }
 header > .brand { max-width:calc(50% - 68px); }
 header > nav { margin-left:auto; }
 @media(max-width:1000px) {
