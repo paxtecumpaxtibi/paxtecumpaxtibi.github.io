@@ -252,10 +252,16 @@ footer .footer-devotion p { font-size:1rem;line-height:1.8; }
 
 footer > p {
   display:block;
-  color:var(--text);
+  color:#3d2c21;
   font-family:var(--serif);
-  font-size:1rem;
+  font-size:1.15rem;
   font-style:italic;
   letter-spacing:.03em;
   line-height:1.55;
+}
+
+.header-heart-caption { font-size:1rem; }
+@media(max-width:700px) {
+  .header-heart-caption { font-size:1.25rem; }
+  footer > p { font-size:1.25rem; }
 }
